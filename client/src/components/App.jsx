@@ -11,8 +11,9 @@ var imgUrl = '/client/src/components/banner.jpg';
 
 var divStyle1 = {
 	backgroundColor: "#d5b4ca",
+	textSize: "50px",
 	
-	height: "2000px"
+	height: "3000px"
 }
 
 var h1Style = {
@@ -28,7 +29,7 @@ var h1Style = {
 var divStyle = {
 	backgroundColor: "#d5b4ca",
 	fontFamily: 'bodini',
-	fontSize: "20",
+	fontSize: "50",
 	height: "80px",
 	padding: "5%"
 }
@@ -40,7 +41,7 @@ var buttonStyle = {
   display: 'inline-block',
   margin: "0 10px 0 0",
   padding: "15px 45px",
-  fontSize: "30px",
+  fontSize: "20px",
   fontFamily: "Bitter",
   align: "center",
   boxShadow: "none",
@@ -70,14 +71,14 @@ var items = [
   },
   {
     id: 3,
-    description: "Roselle Sleeveless Top NOW $99.95 ($158.00)",
-    image: "./dressinroom_bg.jpg",
+    description: "Metallic Bomber",
+    image: "/client/src/components/bomber1.png",
     onSale: 'no'
   },
   {
     id: 4,
-    description: "Cropped Baja Pullover NOW $49.95 ($58.00)",
-    image: "./dresingroom_bg.jpg",
+    description: "Reverie Sweater Dress",
+    image: "/client/src/components/sweaterdress1.png",
     onSale: 'no'
   },
 ];
@@ -89,6 +90,7 @@ const App = ({items}) => (
   <div>
     <Header style={divStyle1}/>
     </div>
+    <hr/>
 
      <div>
         <button id="show-all"style={buttonStyle}>Show Your Items</button>

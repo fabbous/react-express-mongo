@@ -9547,8 +9547,9 @@ var imgUrl = '/client/src/components/banner.jpg';
 
 var divStyle1 = {
   backgroundColor: "#d5b4ca",
+  textSize: "50px",
 
-  height: "2000px"
+  height: "3000px"
 };
 
 var h1Style = {
@@ -9564,7 +9565,7 @@ var h1Style = {
 var divStyle = {
   backgroundColor: "#d5b4ca",
   fontFamily: 'bodini',
-  fontSize: "20",
+  fontSize: "50",
   height: "80px",
   padding: "5%"
 };
@@ -9573,7 +9574,7 @@ var buttonStyle = _defineProperty({
   display: 'inline-block',
   margin: "0 10px 0 0",
   padding: "15px 45px",
-  fontSize: "30px",
+  fontSize: "20px",
   fontFamily: "Bitter",
   align: "center",
   boxShadow: "none",
@@ -9597,13 +9598,13 @@ var items = [{
   onSale: 'yes'
 }, {
   id: 3,
-  description: "Roselle Sleeveless Top NOW $99.95 ($158.00)",
-  image: "./dressinroom_bg.jpg",
+  description: "Metallic Bomber",
+  image: "/client/src/components/bomber1.png",
   onSale: 'no'
 }, {
   id: 4,
-  description: "Cropped Baja Pullover NOW $49.95 ($58.00)",
-  image: "./dresingroom_bg.jpg",
+  description: "Reverie Sweater Dress",
+  image: "/client/src/components/sweaterdress1.png",
   onSale: 'no'
 }];
 
@@ -9617,6 +9618,7 @@ var App = function App(_ref) {
       null,
       _react2.default.createElement(_Header2.default, { style: divStyle1 })
     ),
+    _react2.default.createElement('hr', null),
     _react2.default.createElement(
       'div',
       null,
@@ -9705,9 +9707,19 @@ var divStyle = {
 };
 
 var headerStyle = {
-	color: 'lightBlack',
+	color: 'white',
 	fontFamily: 'bodoni',
 	textAlign: 'center',
+	fontSize: "60",
+	padding: "0",
+	margin: "0"
+};
+
+var headerStyle2 = {
+	color: 'white',
+	fontFamily: 'bodoni',
+	textAlign: 'center',
+	fontSize: "40",
 	padding: "0",
 	margin: "0"
 };
@@ -9723,8 +9735,8 @@ var Header = function Header() {
 		),
 		_react2.default.createElement(
 			'h2',
-			{ style: headerStyle },
-			' Check out your recent sales! '
+			{ style: headerStyle2 },
+			'Shop Affordably Without Sacrificing Your Style '
 		)
 	);
 };

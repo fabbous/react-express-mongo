@@ -11,9 +11,20 @@ var divStyle = {
 
 
 var headerStyle = {
-	color: 'lightBlack',
+	color: 'white',
 	fontFamily: 'bodoni',
 	textAlign: 'center',
+	fontSize: "60",
+	padding: "0",
+	margin: "0"
+}
+
+
+var headerStyle2 = {
+	color: 'white',
+	fontFamily: 'bodoni',
+	textAlign: 'center',
+	fontSize: "40",
 	padding: "0",
 	margin: "0"
 }
@@ -24,7 +35,8 @@ var headerStyle = {
 const Header = () => (
     <div style={divStyle}>
         <h1 style={headerStyle}> WARDROBE WATCH </h1>
-        <h2 style={headerStyle}> Check out your recent sales! </h2>
+        <h2 style={headerStyle2}>Shop Affordably Without Sacrificing Your Style </h2>
+
     </div>
 )
 

@@ -9613,9 +9613,9 @@ var App = function App(_ref) {
     'div',
     { style: divStyle1 },
     _react2.default.createElement(
-      'h1',
-      { style: h1Style },
-      ' '
+      'div',
+      null,
+      _react2.default.createElement(_Header2.default, { style: divStyle1 })
     ),
     _react2.default.createElement(
       'div',

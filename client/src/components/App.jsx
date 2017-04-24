@@ -86,11 +86,15 @@ var items = [
 
 const App = ({items}) => (
   <div style={divStyle1}>
-    <h1 style={h1Style}> </h1>
+  <div>
+    <Header style={divStyle1}/>
+    </div>
+
      <div>
         <button id="show-all"style={buttonStyle}>Show Your Items</button>
         <div id="items" ></div>
     </div>
+
     {items.map(item => (
       // <div className="item" style={divStyle} key={item.description}>{item.description}</div>
        <div><img src={item.image} className="img-responsive"/></div>

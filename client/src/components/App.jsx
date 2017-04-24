@@ -10,6 +10,7 @@ var imgUrl = '/client/src/components/banner.jpg';
 // import Items from './items.js';
 
 var divStyle1 = {
+	backgroundColor: "#d5b4ca",
 	
 	height: "2000px"
 }
@@ -63,8 +64,8 @@ var items = [
 
   {
     id: 2,
-    description: "Mahalia Kimono Cardigan NOW $69.95 ($128.00)",
-    image: "./drssingroom_bg.jpg",
+    description: "Cropped Baja Pullover",
+    image: "/client/src/components/hat.png",
     onSale: 'yes'
   },
   {
@@ -87,7 +88,7 @@ const App = ({items}) => (
   <div style={divStyle1}>
     <h1 style={h1Style}> </h1>
      <div>
-        <button id="show-all"style={buttonStyle}>Show All Sale Items</button>
+        <button id="show-all"style={buttonStyle}>Show Your Items</button>
         <div id="items" ></div>
     </div>
     {items.map(item => (

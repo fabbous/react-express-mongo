@@ -9546,6 +9546,7 @@ var imgUrl = '/client/src/components/banner.jpg';
 // import Items from './items.js';
 
 var divStyle1 = {
+  backgroundColor: "#d5b4ca",
 
   height: "2000px"
 };
@@ -9591,8 +9592,8 @@ var items = [{
   onSale: 'yes'
 }, {
   id: 2,
-  description: "Mahalia Kimono Cardigan NOW $69.95 ($128.00)",
-  image: "./drssingroom_bg.jpg",
+  description: "Cropped Baja Pullover",
+  image: "/client/src/components/hat.png",
   onSale: 'yes'
 }, {
   id: 3,
@@ -9622,7 +9623,7 @@ var App = function App(_ref) {
       _react2.default.createElement(
         'button',
         { id: 'show-all', style: buttonStyle },
-        'Show All Sale Items'
+        'Show Your Items'
       ),
       _react2.default.createElement('div', { id: 'items' })
     ),
